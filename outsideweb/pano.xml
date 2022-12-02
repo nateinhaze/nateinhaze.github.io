@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.15" apprev="18116" id="node1">
+  <input levelbias="0.400" levelingpitch="0" levelbiashidpi="1.000" width="2500" levelingroll="0" height="2500" leveltilesize="510" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+    <level preload="0" width="2500" predecode="0" height="2500"/>
+    <level preload="0" width="1250" predecode="0" height="1250"/>
+    <level preload="0" width="625" predecode="0" height="625"/>
+    <level preload="1" width="312" predecode="1" height="312"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start tilt="0" pan="-180" fov="130" projection="4"/>
+    <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+    <min tilt="-90" pan="0" fovpixel="2"/>
+    <max tilt="90" fovfisheye="360" pan="360" fovstereographic="270" fov="120" scaletofit="1"/>
+  </view>
+  <userdata title="" tags="Jaycee-UVU|Book Panos" longitude="" nodeid="node1" latitude="" heading="0" datetime="11/29/22 8:42 PM" source="" description="" author="" copyright="" comment="" info="" customnodeid=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label bordercolor="0x000000" backgroundcolor="0xffffff" width="180" borderradius="1" textcolor="0x000000" background="1" enabled="1" height="20" border="1" textalpha="1" wordwrap="1" backgroundalpha="1" borderalpha="1"/>
+    <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1"/>
+    <hotspot tilt="16.99" title="" pan="-50.01" url="images/view_from_inside.png" target="" skinid="ht_image" description="" id="Point01"/>
+  </hotspots>
+  <media>
+    <sound startmutedmobile="0" mode="3" tilt="17.660" loop="6" pan="-265.820" field="90.000" pansize="10.000" ambientlevel="0.000" level="1.000" id="Element01" nodechangekeep="0" tiltsize="10.000">
+      <source url="media/186635__luciolepri__light-and-steady-wind.mp3"/>
+    </sound>
+  </media>
+  <transition zoomafterinfov="90" zoomoutpause="1" softedge="0" zoomin="0" zoomafteroutfov="20" zoomout="0" blendcolor="0x000000" enabled="1" type="crossdissolve" blendtime="1" zoomspeed="2" zoomfov="20"/>
+  <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+  <control simulatemass="1" invertcontrol="1" lockedmouse="0" contextprojections="0" speedwheel="1" dblclickfullscreen="0" contextvr="1" sensitivity="8" lockedwheel="0" lockedkeyboardzoom="0" rubberband="0" lockedkeyboard="0" invertwheel="0" contextfullscreen="1"/>
+</panorama>
