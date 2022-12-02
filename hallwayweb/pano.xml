@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="18116" id="node1" appversion="6.1.15">
+  <input leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="2500" levelingpitch="0" levelbias="0.400" height="2500" overlap="1" levelingroll="0">
+    <level width="2500" preload="0" height="2500" predecode="0"/>
+    <level width="1250" preload="0" height="1250" predecode="0"/>
+    <level width="625" preload="0" height="625" predecode="0"/>
+    <level width="312" preload="1" height="312" predecode="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start pan="-180" projection="4" fov="130" tilt="0"/>
+    <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+    <min pan="0" fovpixel="2" tilt="-90"/>
+    <max pan="360" scaletofit="1" fovstereographic="270" fovfisheye="360" fov="120" tilt="90"/>
+  </view>
+  <userdata copyright="" source="" latitude="" author="" title="" nodeid="node1" longitude="" customnodeid="" datetime="11/29/22 8:42 PM" heading="0" description="" info="" comment="" tags="Jaycee-UVU|Book Panos"/>
+  <hotspots width="180" wordwrap="1" height="20">
+    <label backgroundcolor="0xffffff" textcolor="0x000000" borderradius="1" width="180" borderalpha="1" border="1" enabled="1" wordwrap="1" textalpha="1" height="20" bordercolor="0x000000" background="1" backgroundalpha="1"/>
+    <polystyle backgroundcolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+    <hotspot url="images/panophoto.png" pan="-151.93" id="Point01" title="" skinid="ht_image" target="" description="" tilt="3.03"/>
+  </hotspots>
+  <media/>
+  <transition zoomspeed="2" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendtime="1" zoomfov="20" zoomoutpause="1" zoomout="0" blendcolor="0x000000"/>
+  <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+  <control dblclickfullscreen="0" lockedkeyboard="0" rubberband="0" lockedwheel="0" contextfullscreen="1" contextvr="1" simulatemass="1" lockedmouse="0" speedwheel="1" contextprojections="0" sensitivity="8" lockedkeyboardzoom="0" invertcontrol="1" invertwheel="0"/>
+</panorama>
